@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    justify-content: flex-start; // Alinea los elementos a la izquierda, si pones flex-end los alinea a la derecha
+    list-style: none; // Quita los puntos de la lista
+    background-color: rgb(195, 194, 194);
+    color: black;
+    
+    li {
+      margin-left: 10px; // Espacio entre cada elemento del menú
+      
+      &:first-child {
+        margin-left: 0; // Elimina el margen izquierdo del primer elemento
+      }
+    }
+  }
